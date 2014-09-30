@@ -29,7 +29,7 @@ quicksort(int a[], int first, int last){
 }
 
 int main(void){
-	int a[] = {9,5,6,1,2,3,4,8,7,0};
+	int a[] = {99,-5,46,1,2,3,344,8,7,0};
 	int first = 0;
 	int last = ((sizeof(a))/sizeof(int))-1;
 	quicksort(a,first,last);
